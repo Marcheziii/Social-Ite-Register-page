@@ -1,0 +1,117 @@
+* {
+margin:0px;
+padding:0px;
+font-family: 'Open Sans', sans-serif; 
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-weight:bold;
+    font-size:45px;
+    text-align:left;
+    color: #FFF;
+    padding:25px;
+    text-decoration:underline;
+}
+
+body {
+    width:max-content;
+    height:max-content;
+    z-index:1;
+}
+
+fieldset {
+    margin-left:50%;
+    padding:15px;
+    border:solid 5px #FFF;
+    width:100%;
+    position:relative;
+}
+
+.class, .login, .password, .breed, .city {
+    margin-left:50px;
+    font-size:27px;
+    font-weight:bold;
+}
+
+.subtitle {
+    color:#FFF;
+    font-weight:bold;
+    font-size:35px;
+    position:relative;
+    padding:45px;
+    margin-left:50%;
+    text-shadow:3px 3px 3px #000;
+}
+
+input   {
+    font-size:15px;
+    padding:5px;
+    width:300px;
+    height:auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+label   {
+    display:block;
+}
+
+legend  {
+    background-color: #FFF;
+    font-size:33px;
+    color: #000;
+    padding:15px;
+    font-weight:bolder;
+    border-radius:50px;
+}
+
+select  {
+    padding:5px;
+    max-width: max-content;
+    text-align:center;
+    font-size:20px;
+}
+
+.background    {
+    padding:0;
+    margin:0;
+    position:absolute;
+    width:100%;
+    height:200%;
+    z-index:-1;
+    filter: blur(3px);
+    background-image:url(wepik-photo-mode-202276-165630.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-blend-mode:darken;
+}
+
+.button {
+    margin-top:50px;
+    margin-left:90%;
+    position:relative;
+    width:120px;
+    height:60px;
+    font-size:19px;
+    font-weight:bold;
+}
+
+label option {
+    font-size:15px;
+    font-weight:bolder;
+}
+
+.author {
+    margin-top:200px;
+    padding:15px;
+    object-position:right,bottom;
+}
+
+.authorletters {
+    font-size:18px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#000;
+}
+
